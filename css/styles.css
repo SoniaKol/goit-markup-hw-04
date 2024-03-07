@@ -98,6 +98,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+
   display: block;
 }
 
@@ -138,6 +139,15 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/people-office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -193,6 +203,21 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.features-list-box {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 8px;
+}
+
+.features-list-icon {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 0 auto;
+}
 .features-item-titel {
   font-weight: 500;
   font-size: 20px;
@@ -263,6 +288,32 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
+}
+
+.social-list {
+  display: flex;
+  gap: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.social-list-items {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list-items:hover {
+  background-color: #404bbf;
+}
+.social-icons {
+  fill: #f4f4fd;
+  width: 14px;
+  height: 14px;
 }
 
 /*section portfolio*/
