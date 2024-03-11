@@ -149,6 +149,8 @@ img {
   background-size: cover;
   background-position: center center;
   height: 600px;
+  max-width: 1440px;
+  margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -207,17 +209,13 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #f4f4fd;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
   margin-bottom: 8px;
 }
 
-.features-list-icon {
-  width: 64px;
-  height: 64px;
-  display: block;
-  margin: 0 auto;
-}
 .features-item-titel {
   font-weight: 500;
   font-size: 20px;
