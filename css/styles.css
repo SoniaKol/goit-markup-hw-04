@@ -316,8 +316,9 @@ img {
 }
 
 .team-social-icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
+
 /*section portfolio*/
 
 .portfolio {
@@ -378,6 +379,12 @@ img {
   padding-bottom: 100px;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: start;
+  gap: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -394,4 +401,42 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-social-titel {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.footer-social-item {
+}
+
+.footer-social-link {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #4d5ae5;
+  padding: 8px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-icon {
+  fill: #f4f4fd;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
