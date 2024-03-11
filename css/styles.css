@@ -293,12 +293,10 @@ img {
 .team-social-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
   margin-left: 16px;
   margin-right: 16px;
   max-width: 100%;
-}
-
-.team-social-item {
 }
 
 .team-social-link {
@@ -306,17 +304,20 @@ img {
   width: 100%;
   display: flex;
   background-color: #4d5ae5;
-  fill: #fff;
   padding: 12px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
 }
 
-.team-social-link:hover {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: #404bbf;
 }
 
+.team-social-icon {
+  fill: #fff;
+}
 /*section portfolio*/
 
 .portfolio {
