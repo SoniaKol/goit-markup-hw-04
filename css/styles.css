@@ -60,6 +60,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -96,19 +98,20 @@ img {
   gap: 40px;
 }
 
-.header-nav-item {
+.header-nav-link {
   display: flex;
   position: relative;
 }
 
-.header-nav-item:first-child:hover::after,
-.header-nav-item:first-child:focus::after,
-.header-nav-item:first-child:active::after {
+.header-nav-link:hover::after,
+.header-nav-link:focus::after,
+.header-nav-link:active::after {
   position: absolute;
   bottom: 0px;
+  left: 0;
   content: "";
   height: 4px;
-  width: 48px;
+  width: 100%;
   border-radius: 2px;
   background-color: #404bbf;
 }
