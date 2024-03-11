@@ -258,6 +258,7 @@ img {
 }
 
 .team-card {
+  width: calc((100% - 24px * 3) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -289,29 +290,31 @@ img {
   margin-bottom: 8px;
 }
 
-.social-list {
+.team-social-list {
   display: flex;
   gap: 24px;
   margin-left: 16px;
   margin-right: 16px;
-}
-.social-list-items {
-  width: 40px;
-  height: 40px;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 100%;
 }
 
-.social-list-items:hover {
-  background-color: #404bbf;
+.team-social-item {
 }
-.social-icons {
-  fill: #f4f4fd;
-  width: 14px;
-  height: 14px;
+
+.team-social-link {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #4d5ae5;
+  fill: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-social-link:hover {
+  background-color: #404bbf;
 }
 
 /*section portfolio*/
